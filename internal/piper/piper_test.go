@@ -18,7 +18,7 @@ func TestPipe(t *testing.T) {
 	p := piper.NewPipe(adder, adder, adder)
 	h := p.Then(final())
 
-	var i uint64 = 0
+	var i uint64
 	data := []byte{}
 	data = binary.BigEndian.AppendUint64(data, i)
 	rdr := bytes.NewReader(data)
@@ -157,7 +157,7 @@ func TestHTTPAdder(t *testing.T) {
 	p := piper.NewPipe(httpStep, httpStep, httpStep, httpStep)
 	h := p.Then(final())
 
-	w := bytes.NewBuffer([]byte{})
+	w := bytes.NewBuffer(nil)
 	data, err := json.Marshal(&payload{0})
 	if err != nil {
 		t.Fatal(err)

@@ -1,6 +1,9 @@
-# github.com/dreamstax/go-genproto v0.0.0-20231023074605-b32a7666d464
+# cloud.google.com/go/longrunning v0.5.1
+## explicit; go 1.19
+cloud.google.com/go/longrunning/autogen/longrunningpb
+# github.com/dreamstax/go-genproto v0.0.0-20231102092056-7aab8b064f6d
 ## explicit; go 1.20
-github.com/dreamstax/go-genproto/kaiapis/piper/v1alpha1
+github.com/dreamstax/go-genproto/dreamstaxapis/piper/v1alpha1
 # github.com/golang/protobuf v1.5.3
 ## explicit; go 1.9
 github.com/golang/protobuf/jsonpb
@@ -35,8 +38,8 @@ golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # google.golang.org/genproto v0.0.0-20230822172742-b8732ec3820d
 ## explicit; go 1.19
+google.golang.org/genproto/googleapis/longrunning
 google.golang.org/genproto/internal
-google.golang.org/genproto/protobuf/field_mask
 # google.golang.org/genproto/googleapis/api v0.0.0-20230822172742-b8732ec3820d
 ## explicit; go 1.19
 google.golang.org/genproto/googleapis/api

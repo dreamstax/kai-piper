@@ -1,5 +1,7 @@
-github.com/dreamstax/go-genproto v0.0.0-20231023074605-b32a7666d464 h1:joIFos2sN0opVhQNbYdGK7RHjATc5wczIHx/gbEv7hM=
-github.com/dreamstax/go-genproto v0.0.0-20231023074605-b32a7666d464/go.mod h1:BJuEuHpek62ZfOFRmCipMzLEW8ppZZL2AKCF/tzNSw0=
+cloud.google.com/go/longrunning v0.5.1 h1:Fr7TXftcqTudoyRJa113hyaqlGdiBQkp0Gq7tErFDWI=
+cloud.google.com/go/longrunning v0.5.1/go.mod h1:spvimkwdz6SPWKEt/XBij79E9fiTkHSQl/fRUUQJYJc=
+github.com/dreamstax/go-genproto v0.0.0-20231102092056-7aab8b064f6d h1:IqhVSaMbD+fhC8q/N91gHfEZQnC6hMVToROgqswCPT4=
+github.com/dreamstax/go-genproto v0.0.0-20231102092056-7aab8b064f6d/go.mod h1:BJuEuHpek62ZfOFRmCipMzLEW8ppZZL2AKCF/tzNSw0=
 github.com/golang/glog v1.1.2 h1:DVjP2PbBOzHyzA+dn3WhHIq4NdVu3Q+pvivFICf/7fo=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.3 h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg=

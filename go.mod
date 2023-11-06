@@ -1,7 +1,8 @@
 module github.com/dreamstax/kai-piper
 
 require (
-	github.com/dreamstax/go-genproto v0.0.0-20231023074605-b32a7666d464
+	cloud.google.com/go/longrunning v0.5.1
+	github.com/dreamstax/go-genproto v0.0.0-20231102092056-7aab8b064f6d
 	github.com/golang/protobuf v1.5.3
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0

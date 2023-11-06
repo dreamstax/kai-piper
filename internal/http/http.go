@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	piper "github.com/dreamstax/go-genproto/kaiapis/piper/v1alpha1"
+	piper "github.com/dreamstax/go-genproto/dreamstaxapis/piper/v1alpha1"
 	"google.golang.org/grpc"
 )
 
